@@ -6,7 +6,7 @@
  *
  * Return: the converted number
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int j;
 	unsigned int dec_val = 0;
