@@ -8,7 +8,7 @@
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	if (index > 2)
+	if (index > 21)
 		return (-1);
 	*n = (~(1UL << index) & *n);
 	return (1);
